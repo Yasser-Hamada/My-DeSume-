@@ -140,10 +140,12 @@ a:hover {
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
+  cursor: default;
 }
 
 .subtitle-a {
   color: #4e4e4e;
+  cursor: default;
 }
 
 .line-mf {
@@ -1013,6 +1015,11 @@ u {
   color: #4e4e4e;
   display: inline-block;
   float: right;
+}
+
+#note{
+    margin-top: 1em;
+    cursor: default;
 }
 
 /*======================================
