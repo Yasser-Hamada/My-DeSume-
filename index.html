@@ -1,1180 +1,176 @@
-    <!DOCTYPE html>
-    <html lang="en">
+<!DOCTYPE HTML>
+<html>
     <head>
-      <meta charset="utf-8">
-      <title>My-DeSume</title>
-      <meta content="width=device-width, initial-scale=1.0" name="viewport">
-      <meta content="" name="keywords">
-      <meta content="" name="description">
-
-      <!-- Favicons -->
-      <link href="https://i.ibb.co/b32VYN0/design.png" rel="icon">
-
-      <!-- Bootstrap CSS File -->
-      <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-      <!-- Libraries CSS Files -->
-      <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-      <link href="lib/animate/animate.min.css" rel="stylesheet">
-      <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-      <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-      <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
-      <!-- Main Stylesheet File -->
-      <link href="css/style.css" rel="stylesheet">
-
-      <!-- =======================================================
-        Theme Name: My-DeSume
-      ======================================================= -->
+        <title> Games4Kids </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="CSS/Games.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://i.ibb.co/rZd4vyY/g.png" rel="icon">        
     </head>
-    <body id="page-top" onclick="loading()">
-
-      <!--/ Nav Star /-->
-        <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+    <body>
+            <header>
+                <div class="center">
+                    <h1>Games-4-Kids</h1>
+                    <p>A platform for the education of children through entertainment</p>
+                    <a href="#games"><button class="btn btn-info" id="down"><span>Go</span></button></a>
+                </div>
+        </header>
         <div class="container">
-          <a class="navbar-brand js-scroll" href="#page-top">My-DeSume</a>
-          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
-            aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-          <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link js-scroll active" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll" href="#about">About me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll" href="#service">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll" href="#work">Work</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll" href="#Projects">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll" href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!--/ Nav End /-->
-      <!--/ Intro Skew Star /-->
-      <div id="home" class="intro route bg-image" style="background-image: url(https://i.ibb.co/Wg3ngz7/Black.jpg)">
-        <div class="overlay-itro"></div>
-        <div class="intro-content display-table">
-          <div class="table-cell">
-            <div class="container">
-              <h1 class="intro-title mb-4">I'm Yasser Hamada</h1>
-              <p class="intro-subtitle"><span class="text-slider-items">Graphic Designer,Front-End Developer,Back-End Developer</span><strong class="text-slider"></strong></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--/ Intro Skew End /-->
-
-      <section id="about" class="about-mf sect-pt4 route">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="box-shadow-full">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="row">
-                      <div class="col-sm-6 col-md-4">
-                        <div class="about-img">
-                          <img src="https://i.ibb.co/9HkSPmn/ss.jpg" class="img-fluid rounded b-shadow-a">
+            <h1 id="games">{ Games }</h1>
+            <div class="row box">
+                <div class="col-lg-12 row">
+                    <div class="col-lg-4">
+                        <span class="number">01</span>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="col-sm-12 title">
+                            <h2>RPS game</h2>
+                        <p>Each of the three basic handsigns (from left to right: rock, paper, and scissors) beats one of the other two, and loses to the other.</p>
                         </div>
-                      </div>
-                      <div class="col-sm-6 col-md-8">
-                        <div class="about-info">
-                          <p><span class="title-s">Name: </span> <span>Yasser Hamada Abdel-monem</span></p>
-                          <p><span class="title-s">Profile: </span> <span>Graphic Designer &amp; Web Developer</span></p>
-                          <p><span class="title-s">Email: </span> <span>Yasser.hamada71995@gmail.com</span></p>
-                          <p><span class="title-s">Phone: </span> <span>01011269662 / 01127283521</span></p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="https://i.ibb.co/BVd3XP8/RPS-image.jpg">
+                    </div>
+                    
+                </div>
+                <div class="col-lg-12">
+                    <a><button class="btn btn-info gameBtn" onclick="TargetRPS()"><span>RPS game</span></button></a>
+                    </div>      
+            </div>
+            <div class="row box">
+                <div class="col-lg-12 row">
+                    <div class="col-lg-4">
+                        <span class="number">02</span>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="col-sm-12 title">
+                            <h2>kinder Say</h2>
+                        <p>Teaching children how to say the English alphabet is easy and fun, with numerous resources for native-speaking kids.</p>
                         </div>
-                      </div>
                     </div>
-                    <div class="skill-mf">
-                        <h4>Skills</h4><br>
-                            <h5><span>Front-End Bootcamp</span></h5><p>HTML - CSS - JavaScript - EcmaSript(ES6) - TypeScript - JQuery - BootStrap - AngularJS.</p>
-                            <hr>
-                            <h5><span>Back-End</span></h5><p>NodeJS - ExpressJS.</p>
-                            <hr>
-                            <h5><span>Database</span></h5><p>MongoDB - Mongoose.</p>
-                            <hr>
-                            <h5><span>Programing</span></h5><p>Java - C++.</p>
-                            <hr>
-                            <h5><span>Graphic Design</span></h5><p>PS - AI</p>
-                      </div>
-                      <div class="skill-mf">
-                        <h4>Beginner</h4><br>
-                            <h5><span>Front-End</span></h5><p>ReactJS.</p>
-                            <hr>
-                            <h5><span>Back-End</span></h5><p>PHP.</p>
-                            <hr>
-                            <h5><span>Database</span></h5><p>SQL.</p>
-                            <hr>
-                            <h5><span>Graphic Design</span></h5><p>AE - Motion graphic.</p>
+                    <div class="col-lg-4">
+                        <img src="https://i.ibb.co/Vx8gWxr/Letters.jpg">
                     </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="about-me pt-4 pt-md-0">
-                      <div class="title-box-2">
-                        <h5 class="title-left">
-                          About me
-                        </h5>
-                      </div>
-                      <p class="lead">
-                        My name is Yasser, I have bachelor of Computers and Information in 2018, Department of Information Technology with Very good overall rating and excellent graduation project it's name is "fire control and monitoring system (FCMS)".
-                        Graduated from Information Technology Institute (ITI), Asyut branch with excellent overall rating in MEAN Stack Development.
-                      </p>
-                        <div class="title-box-2">
-                        <h5 class="title-left">
-                          Functions
-                        </h5>
-                      </div>
-                      <p class="lead">
-                       Designed graphics, created website (front-end and back-end developer).
-                      </p>
-                        <div class="title-box-2">
-                        <h5 class="title-left">
-                          Work experience
-                        </h5>
-                      </div>
-                      <p class="lead">
-                        <table id="customers">
-                            <tr>
-                                <th>Company</th>
-                                <th>Position</th>
-                            </tr>
-                            <tr>
-                                <td>Assui System</td>
-                                <td>Senior graphic designer, Front-end developer and instructor for both</td>
-                            </tr>
-                            <tr>
-                                <td>Petrojit</td>
-                                <td>Data entry and IT</td>
-                            </tr>
-                            <tr>
-                                <td>Xceed</td>
-                                <td>Call Center</td>
-                            </tr>
-                            <tr>
-                                <td>Freelancer</td>
-                                <td>Graphic Designer</td>
-                            </tr>
-                            <tr>
-                                <td>United Company</td>
-                                <td>Digital marketer and Native Front-end developer</td>
-                            </tr>
-                            <tr>
-                                <td>Life Maker</td>
-                                <td>Volunteer</td>
-                            </tr>
-                        </table>
-                      </p>
-                       <div class="title-box-2">
-                        <h5 class="title-left">
-                          Curriculum Vitae [CV]
-                        </h5>
-                      </div>
-                      <p class="lead">
-                          If you want to know more about my CV, you should click on button <u>Read more</u>.
-                      </p>
-
-                      <a id="download" href="https://docdro.id/n4BBtme" target="_blank"><span>Read more</span></a>
-
-                    </div>
-                  </div>
+                    
                 </div>
-              </div>
+                <div class="col-lg-12">
+                    <a><button class="btn btn-info gameBtn" onclick="kinderSay()"><span>kinder-Say</span></button></a>
+                    </div>      
             </div>
-          </div>
+            <div class="row box">
+                <div class="col-lg-12 row">
+                    <div class="col-lg-4">
+                        <span class="number">03</span>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="col-sm-12 title">
+                            <h2>Letter Quiz</h2>
+                        <p>Test kid in letters through shape and tell him if his answer false or true through specific sound for each.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="https://i.ibb.co/8XS5PL2/letters-test.jpg">
+                    </div>
+                    
+                </div>
+                <div class="col-lg-12">
+                    <a><button class="btn btn-info gameBtn" onclick="LetterQuiz()"><span>Letter-Quiz</span></button></a>
+                    </div>      
+            </div>
+            <div class="row box">
+                <div class="col-lg-12 row">
+                    <div class="col-lg-4">
+                        <span class="number">04</span>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="col-sm-12 title">
+                            <h2>4 Pics 1 Word</h2>
+                        <p>4 pictures that have 1 word in common - try to guess what it is!
+                        Endless fun with new puzzles
+                        can guess the words and unlock the levels ?</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="https://i.ibb.co/HG2pVXk/4pics-1-word.png">
+                    </div>
+                    
+                </div>
+                <div class="col-lg-12">
+                    <a><button class="btn btn-info gameBtn" onclick="PicsWord()"><span>Pics &amp; Word</span></button></a>
+                    </div>      
+            </div>
+            <div class="row box">
+                <div class="col-lg-12 row">
+                    <div class="col-lg-4">
+                        <span class="number">05</span>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="col-sm-12 title">
+                            <h2>Multiple test</h2>
+                        <p>it is considered iq game that depends on testing the speed of people in calculation processes in 60 seconds and make game tell your iq through your record in this time.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="https://i.ibb.co/Xpz0yjf/calc-project1.jpg">
+                    </div>
+                    
+                </div>
+                <div class="col-lg-12">
+                    <a><button class="btn btn-info gameBtn" onclick="Cross()"><span>Multiple-test</span></button></a>
+                    </div>      
+            </div>
         </div>
-      </section>
+    <!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4">
 
-      <!--/ Section Services Star /-->
-      <section id="service" class="services-mf route">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="title-box text-center">
-                <h3 class="title-a">
-                  Services
-                </h3>
-                <p class="subtitle-a">
-                  Work to serve our customers and provide integrated solutions in all fields of software and accomplish their requirements with accuracy and high efficiency.
-                </p>
-                <div class="line-mf"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="service-box">
-                <div class="service-ico">
-                  <span class="ico-circle"><i class="ion-monitor"></i></span>
-                </div>
-                <div class="service-content">
-                  <h3 class="s-title">Web Design</h3>
-                    <h5 class="s-title">two years of experience</h5>
-                    <p class="s-description text-center">
-                        Create responsive websites that allow the user to experience your website in the best and most appropriate way suited to the device they are using. By working using progressive enhancement, your website is delivered with a responsive layout that can best make use of the space available on the smallest to largest devices. Cross browser compatibility is ensured by using feature detection so older browsers still in use today provide a solid experience, whilst modern browsers can go the next step and enhance a user’s time spent on your site.
-                    </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="service-box">
-                <div class="service-ico">
-                  <span class="ico-circle"><i class="ion-paintbrush"></i></span>
-                </div>
-                <div class="service-content">
-                  <h3 class="s-title">Graphic Design</h3>
-                    <h5 class="s-title">Two years of experience</h5>
-                  <p class="s-description text-center">
-                    Create all designs of companies with consideration to show the special character of your company and your private area and taking into account the required spaces and space to show your message by design in a fast and easy way.
-                  </p>
-                </div>
-              </div>
-            </div>
-              <div class="col-md-4">
-              <div class="service-box">
-                <div class="service-ico">
-                  <span class="ico-circle"><i class="ion-code-working"></i></span>
-                </div>
-                <div class="service-content">
-                  <h3 class="s-title">Web Development</h3>
-                    <h5 class="s-title">6 months of experience</h5>
-                  <p class="s-description text-center">
-                    Creat an intellegent idea and convert it to real with our team using functions that helps you to creat your project with simple way to be easy to use your website and we are following all completed projects. 
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--/ Section Services End /-->
+  <!-- Footer Elements -->
+  <div class="end">
 
-      <div class="section-counter paralax-mf bg-image" style="background-image: url(https://i.ibb.co/4JVHCS7/counters-bg.jpg)">
-        <div class="overlay-mf"></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-3 col-lg-3">
-              <div class="counter-box counter-box pt-4 pt-md-0">
-                <div class="counter-ico">
-                  <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
-                </div>
-                <div class="counter-num">
-                  <p class="counter">108</p>
-                  <span class="counter-text">PROJECTS</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3 col-lg-3">
-              <div class="counter-box pt-4 pt-md-0">
-                <div class="counter-ico">
-                  <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
-                </div>
-                <div class="counter-num">
-                  <p class="counter">2</p>
-                  <span class="counter-text">YEARS OF EXPERIENCE</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3 col-lg-3">
-              <div class="counter-box pt-4 pt-md-0">
-                <div class="counter-ico">
-                  <span class="ico-circle"><i class="ion-ios-people"></i></span>
-                </div>
-                <div class="counter-num">
-                  <p class="counter">54</p>
-                  <span class="counter-text">TOTAL CLIENTS</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3 col-lg-3">
-              <div class="counter-box pt-4 pt-md-0">
-                <div class="counter-ico">
-                  <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
-                </div>
-                <div class="counter-num">
-                  <p class="counter">9</p>
-                  <span class="counter-text">AWARD WON</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="mx-1" href="https://www.facebook.com/YasserHamada15/" target="_blank"> 
+          <i class="fa fa-facebook fa-2x" title="Facebook account"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="mx-1" href="https://www.instagram.com/yasser_hamada15/" target="_blank">
+          <i class="fa fa-instagram fa-2x" title="Instagram account"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="mx-1" href="https://mostaql.com/dashboard/portfolio" target="_blank">
+          <i class="fa fa-briefcase fa-2x" title="Mostaql projects"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="mx-1" href="https://www.linkedin.com/in/yasser-hamada-1101b3188/" target="_blank">
+          <i class="fa fa-linkedin fa-2x" title="Linkein account"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="mx-1" href="https://yasser-hamada.github.io/My-DeSume-/" target="_blank">
+          <i class="fa fa-globe fa-2x" title="My-website"></i>
+        </a>
+      </li>
+    </ul>
+    <!-- Social buttons -->
 
-      <!--/ Section Portfolio Star /-->
-      <section id="work" class="portfolio-mf sect-pt4 route">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="title-box text-center">
-                <h3 class="title-a">
-                  Portfolio
-                </h3>
-                <p class="subtitle-a">
-                  Some Graphic projects
-                </p>
-                <div class="line-mf"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/nM6HJZR/Aliou-Dieng.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Aliou Dieng</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/QHhPFw1/Assiu-System-Background.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Assiu System Background</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/FqPHMbt/Assiu-System-Profile-Picture-1.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Assiu System Profile Picture</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/VNFXwvF/Book-Layout.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Book Layout</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/LvyK0QY/Bride.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Bride</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/WKNp6Wj/Collage.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Collage</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-              <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/1Xr3YZ0/Compulsive-Thinking.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Compulsive Thinking</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-              <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/mvWnD4N/coverart.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Cover Art</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-              <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/vzmnMhW/cyberpunk-Poster.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Cyberpunk Poster</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/GQjSQS3/Double-Exposure.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Double Exposure</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/9wWLzx7/Eden-Hazard.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Eden Hazard</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/VmfbGXY/Wolf-Design.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Wolf Design</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-              <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/Bw3YYz7/Wall-Design.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Wall Design</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/gwZWxTX/Egypta-Poster.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Egypta Poster</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-              <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/QrGdz5T/Elegant-Portrait.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Elegant Portrait</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-              <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/dGH8mwZ/EYE-Glance.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">EYE Glance</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-              <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/gtdFRnk/FACE-SMOKE.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Face Smoke</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-              <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/Vv9Vbp1/Gradient-Poster.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Gradient Poster</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-              <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/YdJwLNw/Jacob.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Jacob</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-              <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/FWXVqST/Jesica-Background.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Jesica Background</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-              <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/5B1Mqqn/Kristen-Stewart.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Kristen Stewart</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-              <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/Vq2SC2v/Lion.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Lion T-Shirt</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-              <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/BrKgZ3J/Lionel-Messi.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Lionel Messi</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-              <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/qBKC7sL/michael-jordan-poster.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Michael Jordan</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-              <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/Tcj42cm/Mirror.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Mirror</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-              <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/MNPBWWZ/Model.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Model</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/cCg0TnZ/pink-moon.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Pink Moon</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/mBNC9WC/premier-league.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Premier League</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/4WSfG2Q/Robert-Douglas-Thomas-Pattinson.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Robert-Douglas-Thomas-Pattinson</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/hmRjXM4/Screen-Media-Logo.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Screen Media Logo</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/Ybj8VPV/Shikabala.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Shikabala</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/sqsH13k/Team-bride.jpg" data-lightbox="gallery-mf"> 
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Team Bride Wedding</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/DMk8h71/Twilight-Smoke.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Twilight Smoke</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/NZPtSr4/Wolf-Cover.png" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Wolf Cover</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/X2NFVv6/Yasso-Poster.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Yasso Poster</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/Qk9CCMk/ZLATAN.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">ZLATAN</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/6DXhwMG/Website.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">UI-UX Design Website</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/rtsy5BR/sales-reprsentative-ad.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">sales reprsentative ad</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-              <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/1XWwyjB/TechSup.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Technical Support Ad</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-              <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/zVp376J/English-aliphia-cycle-graph.png" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Program simple Graph</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-              <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/F8M0bT4/Yasser-Card.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">My AssiuSystem Card</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/RNFy0rT/The-Best-Logo.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">The Best Plan</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-              <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/LPjSdK6/Aliphia-poster.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Aliphia Poster</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-              <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/7K2KnXj/Ph-Logo.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Photographer Logo</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-              <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/qj9Qknr/Wolf-Sketch.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Wolf Sketch</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-              <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/Thj91N9/Photoshop-Course-AD.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Photoshop Course</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/0Dbx5RS/Yasso-Desgin.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Yasso Logo</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/s6nJ49z/HIPHOP.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">HipHop Poster</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/rywCd1c/Dream-is-no-limited.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Dream is no limited Poster</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/B3HCtvh/Wild-Cover.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Wild Cover</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/v1tqQjt/deep.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">deep poster</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="https://i.ibb.co/VM8D7YS/image.jpg" data-lightbox="gallery-mf">
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <h2 class="w-title">Ramadan Kareem poster</h2>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--/ Section Portfolio End /-->
+    <div> 
+        <p>Copyright @ YassoDesign 2020</p>
+        <p>Created by : Yasser hamada</p>
+    </div>
+  </div>
+  <!-- Footer Elements -->
+    
 
-      <!--/ Section Projects Star /-->
-      <section id="Projects" class="Projects-mf sect-pt4 route">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="title-box text-center">
-                <h3 class="title-a">
-                  Projects
-                </h3>
-                <p class="subtitle-a">
-                  Some Front-End projects
-                </p>
-                <div class="line-mf"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="card card-Projects">
-                <div class="card-img">
-                  <img src="https://i.ibb.co/37Tkj5J/Com.jpg" class="img-fluid">
-                </div>
-                <div class="card-body">
-                  <div class="card-category-box">
-                    <div class="card-category">
-                      <h6 class="category">Commerce-Company</h6>
-                    </div>
-                  </div>
-                    <h3 class="card-title"><strong>Visit<a href="https://yasser-hamada.github.io/Assiusystem/" target="_blank"> Assiu-System </a>website</strong></h3>
-                    <h3 class="card-title"><a href="https://i.ibb.co/fHDx2hf/Assiusystem.jpg" data-lightbox="gallery-mf">Home page screen</a></h3>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card card-Projects">
-                <div class="card-img">
-                  <img src="https://i.ibb.co/dprBcf7/all.jpg" class="img-fluid">
-                </div>
-                <div class="card-body">
-                  <div class="card-category-box">
-                    <div class="card-category">
-                      <h6 class="category">Sport</h6>
-                    </div>
-                  </div>
-                    <h3 class="card-title"><strong>Visit<a href="https://yasser-hamada.github.io/Footballista/" target="_blank"> Footballista </a>website</strong></h3>
-                    <h3 class="card-title"><a href="https://i.ibb.co/vC9RKZL/footballista.jpg" data-lightbox="gallery-mf">Home page screen</a></h3>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card card-Projects">
-                <div class="card-img">
-                  <img src="https://i.ibb.co/wrfDHmY/Game.jpg" class="img-fluid">
-                </div>
-                <div class="card-body">
-                  <div class="card-category-box">
-                    <div class="card-category">
-                      <h6 class="category">Entertainment &amp; Education</h6>
-                    </div>
-                  </div>
-                    <h3 class="card-title"><strong>Visit<a href="#" target="_blank"> Games4Kids  </a>website</strong></h3>
-                    <h3 class="card-title"><a href="https://i.ibb.co/PDpffDc/games.jpg" data-lightbox="gallery-mf">Home page screen</a></h3>
-                </div>
-              </div>
-            </div>
-
-          </div>
-           <div class="row">
-            <div class="col-sm-12">
-              <div class="title-box text-center">
-                <h3 class="title-a">
-                  Note
-                </h3>
-                <div class="line-mf"></div>
-                  <p id="note">
-                  These are not all web design projects that are designed, but there are other projects that are not submitted, other works on the upload side as well as projects that are executed in parallel.
-                  </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--/ Section Projects End /-->
-
-      <!--/ Section Contact-Footer Star /-->
-      <section class="paralax-mf footer-paralax bg-image sect-mt4 route" 
-               style="background-image: url(https://i.ibb.co/PYvdwCL/overlay-bg.jpg)">
-        <div class="overlay-mf"></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="contact-mf">
-                <div id="contact" class="box-shadow-full">
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <div class="title-box pt-4 pt-md-0">
-                        <h5 class="title-left">
-                          Get in Touch
-                        </h5>
-                      </div>
-                      <div class="more-info">
-                        <p class="lead">
-                          You can connect with me through
-                        </p>
-                        <ul class="list-ico">
-                          <li><span class="ion-email"></span> Yasser.hamada71995@gmail.com</li>
-                          <li><span class="ion-ios-location"></span> Thabet street, Asyut</li>
-                          <li><span class="ion-ios-telephone"></span> 01011269662</li>
-                        </ul>
-                      </div>
-                      <div class="socials">
-                        <ul>
-                          <li><a href="https://www.facebook.com/YasserHamada15/" target="_blank"><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
-                          <li><a href="https://www.instagram.com/yasser_hamada15/" target="_blank"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
-                          <li><a href="https://www.linkedin.com/in/yasser-hamada-1101b3188/" target="_blank"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <footer>
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="copyright-box">
-                    <p class="copyright">
-                        <strong>Created by: </strong>{ Yasser Hamada Abdel-monem }
-                        <br><strong>Last monthly update on: </strong>{ 10-4-2020 }
-                        <br><strong>&copy; Copyright: </strong>{ My-DeSume }
-                        <br>All Rights Reserved
-                    </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </footer>
-      </section>
-      <!--/ Section Contact-footer End /-->
-
-      <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-      <div id="preloader"></div>
-
-      <!-- JavaScript Libraries -->
-      <script src="lib/jquery/jquery.min.js"></script>
-      <script src="lib/jquery/jquery-migrate.min.js"></script>
-      <script src="lib/popper/popper.min.js"></script>
-      <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-      <script src="lib/easing/easing.min.js"></script>
-      <script src="lib/counterup/jquery.waypoints.min.js"></script>
-      <script src="lib/counterup/jquery.counterup.js"></script>
-      <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-      <script src="lib/lightbox/js/lightbox.min.js"></script>
-      <script src="lib/typed/typed.min.js"></script>
-      <!-- Contact Form JavaScript File -->
-      <script src="contactform/contactform.js"></script>
-
-      <!-- Template Main Javascript File -->
-      <script src="js/main.js"></script>
-
+</footer>
+<!-- Footer -->
     </body>
-    </html>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="JS/Games.js"></script>
+</html>
